@@ -1,0 +1,35 @@
+==================================================================							
+
+Author: 
+
+Abhishek Chowdhry
+2nd Year, B. Tech Computer Science and Engineering, IIT Ropar
+Email: abhishek.chowdhry97@gmail.com
+Github: github.com/abhishek1007 
+
+==================================================================
+
+SUDOKU SOLVER USING CSP
+
+In this code we have tried to solve a 9*9 sudoku given to us by formulating it as a CSP and then solving it using various techniques. In the second part we have used the MiniSAT solver to solve the CSP.
+
+==================================================================
+
+SUDOKU SOLVER USING CSP
+
+1) Extract the file on the desktop and use the command prompt to go to the file. In the file go to code, then go to Q1.
+2) To run BS algorithm, type on the command prompt: "g++ BS.cpp". Then type: "./a.out inputfilename outputfilename" on the prompt.
+3) To run BS-I algorithm, type on the command prompt: "g++ BS-I.cpp". Then type: "./a.out inputfilename outputfilename" on the prompt.
+4) To run BS-II algorithm, type on the command prompt: "g++ BS-II.cpp". Then type: "./a.out inputfilename outputfilename" on the prompt.
+5) To run MAC algorithm, type on the command prompt: "g++ MAC.cpp". Then type: "./a.out inputfilename outputfilename" on the prompt.
+
+
+SUDOKU SOLVER USING MINISAT
+
+1) Extract the file on the desktop and use the command prompt to go to the file. In the file go to code, then go to Q2.
+2) Now type on the command prompt: "make".
+3) Then type on the prompt: "g++ MiniSAT.cpp".
+4) Then type on the command prompt: "./a.out inputfilename outputfilename".
+
+
+Note:- At the place of inputfilename type the name of the file containing the inputs, while at the place of the outputfilename type the name of the file in which you want to get the output. To get the time taken by any program to run prefix "./a.out inputfilename outputfilename" by "time", while to get the memory used by any program prefix it by "valgrind".
